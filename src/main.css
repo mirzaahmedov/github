@@ -2,6 +2,15 @@
 @tailwind utilities;
 @tailwind components;
 
+html,
+body,
+#root {
+  height: 100%;
+}
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Libre Baskerville", serif;
+}
+
+button {
+  font-family: "Inter", sans-serif;
 }
